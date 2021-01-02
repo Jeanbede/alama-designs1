@@ -1,0 +1,132 @@
+
+    .intro{
+        position: relative;
+        display: inline-block; 
+         text-align: center; 
+    }
+     .text{
+        position: absolute;
+        z-index: 999;
+        margin: 0 auto;
+        left: 0;
+        right: 0;        
+        text-align: center;
+        top: 40%;        
+        /* font-family: Arial,sans-serif; */
+         width: 60%; 
+    }
+    .text>p{
+        color: black;
+        font-size: large;
+        font-weight: bold;
+    }
+
+    .service{
+        position: relative;
+        display: inline-block; 
+         text-align: center; 
+    }
+     .serve{
+        position: absolute;
+        z-index: 999;
+        margin: 0 auto;
+        left: 0;
+        right: 0;        
+        text-align: center;
+        top: 40%;        
+        /* font-family: Arial,sans-serif; */
+         width: 60%; 
+    }
+    .serve>p{
+        color: rgb(5, 151, 71);
+        font-size: large;
+        font-weight: bold;
+    }
+   
+ .portfolio>img{
+     width: 260px;
+     height: 200px;
+ }
+
+ .contact{
+    position: relative;
+    text-align: center; 
+}
+ .reach{
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;        
+    text-align: center;
+    top: 0px;
+    text-decoration: underline;        
+ }
+
+.reach>p{
+    color: rgb(5, 151, 71);
+    font-size: large;
+    font-weight: bold;
+    }
+    .about>  p{
+color: rgb(4, 201, 184);
+font-weight: bold;
+font-size: 20px;
+    }
+
+
+
+
+body{
+    text-align: center;
+    font-family: 'Bentham', serif;
+    }
+    h1{
+        text-decoration: underline black;
+        color: green;
+    }
+.footer> img{
+    position: inline-block;
+    }
+
+  .container {
+        position: relative;
+        width: 20%;
+        display: inline-block;
+      }
+      
+      .image {
+        display: block;
+        width: 50%;
+        height: 50%;
+      }
+      
+      .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 140%;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: white;
+      }
+      
+      .container:hover .overlay {
+        opacity: 1;
+      }
+      
+      .text {
+        color: rgb(19, 1, 1);
+        font-size: 20px;
+        position: absolute;
+        top: 50%;
+        left: 20%;
+        right: 50%;
+        /* -webkit-transform: translate(-50%, -50%); */
+        /* -ms-transform: translate(-50%, -50%); */
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
