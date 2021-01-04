@@ -4,23 +4,6 @@
         display: inline-block; 
          text-align: center; 
     }
-     .text{
-        position: absolute;
-        z-index: 999;
-        margin: 0 auto;
-        left: 0;
-        right: 0;        
-        text-align: center;
-        top: 40%;        
-        /* font-family: Arial,sans-serif; */
-         width: 60%; 
-    }
-    .text>p{
-        color: black;
-        font-size: large;
-        font-weight: bold;
-    }
-
     .service{
         position: relative;
         display: inline-block; 
@@ -34,8 +17,7 @@
         right: 0;        
         text-align: center;
         top: 40%;        
-        /* font-family: Arial,sans-serif; */
-         width: 60%; 
+        width: 60%; 
     }
     .serve>p{
         color: rgb(5, 151, 71);
@@ -62,7 +44,6 @@
     top: 0px;
     text-decoration: underline;        
  }
-
 .reach>p{
     color: rgb(5, 151, 71);
     font-size: large;
@@ -73,9 +54,6 @@ color: rgb(4, 201, 184);
 font-weight: bold;
 font-size: 20px;
     }
-
-
-
 
 body{
     text-align: center;
@@ -125,8 +103,17 @@ body{
         top: 50%;
         left: 20%;
         right: 50%;
-        /* -webkit-transform: translate(-50%, -50%); */
-        /* -ms-transform: translate(-50%, -50%); */
         transform: translate(-50%, -50%);
         text-align: center;
+        margin: 0 auto;
+        left: 0;
+        right: 0;    
+        width: 60%; 
       }
+      .text>p{
+        color: black;
+        font-size: large;
+        font-weight: bold;
+        }
+
+   
